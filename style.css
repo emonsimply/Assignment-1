@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
+
+/* Banner Section styles */
+
+#banner-section {
+  background-color: #C6E4D6;
+  width: 1280px;
+  height: 560px;
+  border-radius: 24px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.banner-section-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  gap: 64px;
+}
+
+.banner-section-Container h2 {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 50%;
+}
+
+.banner-section-Container h1 {
+  font-size: 56px;
+  font-weight: 700;
+  padding: 16px 0px 24px 0px;
+}
+
+.banner-btn {
+  background-color: #006A50;
+  color: #ffffff;
+  font-size: 18;
+  font-weight: 600;
+  border-style: none;
+  padding: 17px 34px;
+  border-radius: 8px;
+}
