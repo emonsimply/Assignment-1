@@ -183,7 +183,6 @@
 
 #recent-news {
   width: 1280px;
-  height: 765px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -259,4 +258,78 @@
 
 .news-cards button:hover {
   background-color: #0fb48b;
+}
+
+
+/* Donate Today */
+#donate {
+  background-color: #f3f3f3;
+  border-radius: 24px;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+  padding-top: 80px;
+  margin: auto;
+}
+
+.donate-title h2 {
+  color: #0E0E0E;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.donate-title p {
+  color: #0E0E0E;
+  font-size: 16px;
+  opacity: 70%;
+}
+
+.taka-cards {
+  display: flex;
+  gap: 23px;
+}
+
+.taka-cards .card {
+  background-color: white;
+  color: #0E0E0E;
+  font-size: 40px;
+  font-weight: 700;
+  opacity: 80%;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.150);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.taka-cards .card:hover {
+  background-color: #C6E4D6;
+}
+
+.taka-amount {
+  width: 1032px;
+  background-color: #ffffff;
+  padding: 17px 34px;
+  text-align: center;
+  border-style: none;
+}
+
+.taka-amount [placeholder] {
+  color: #0e0e0e30;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.donate-btn {
+  background-color: #006A50;
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
 }
