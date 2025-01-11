@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-* {
   font-family: "Fira Sans", serif;
   font-style: normal;
 }
+
 
 
 /* Banner Section styles */
@@ -30,12 +28,14 @@
 }
 
 .banner-section-Container h2 {
+  color: #0E0E0E;
   font-size: 24px;
   font-weight: 500;
   opacity: 50%;
 }
 
 .banner-section-Container h1 {
+  color: #0E0E0E;
   font-size: 56px;
   font-weight: 700;
   padding: 16px 0px 24px 0px;
@@ -69,6 +69,7 @@
 }
 
 .vision-title h2 {
+  color: #0E0E0E;
   font-size: 48px;
   font-weight: 700;
   padding-bottom: 24px;
@@ -257,7 +258,7 @@
 }
 
 .news-cards button:hover {
-  background-color: #0fb48b;
+  background-color: #52ca5c;
 }
 
 
@@ -271,7 +272,7 @@
   align-items: center;
   text-align: center;
   gap: 32px;
-  padding-top: 80px;
+  padding: 50px 0px;
   margin: auto;
 }
 
@@ -332,4 +333,72 @@
   border-radius: 8px;
   color: white;
   cursor: pointer;
+}
+
+.donate-btn:hover {
+  background-color: #52ca5c;
+}
+
+
+/* Newsletter Section */
+#newsletter {
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  width: 1280px;
+  margin: auto;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+  margin: 80px 0px 80px 0px;
+  padding: 80px 100px;
+}
+
+#newsletter h2 {
+  color: #0E0E0E;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+#newsletter p {
+  color: #0E0E0E;
+  opacity: 70%;
+  padding-bottom: 24px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.from-email {
+  width: 560px;
+  height: 55px;
+  border-style: none;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 40px;
+}
+
+.from-submit {
+  width: 150px;
+  height: 56px;
+  border-style: none;
+  background-color: #006A50;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+.from-submit:hover {
+  background-color: #52ca5c;
+}
+
+.newsletter-container-p2 {
+  padding-top: 24px;
 }
