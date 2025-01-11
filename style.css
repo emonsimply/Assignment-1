@@ -215,7 +215,7 @@
   gap: 32px;
 }
 
-.news-cards img {
+.news-cards .satelite img {
   border-radius: 24px;
 }
 
@@ -316,12 +316,11 @@
   padding: 17px 34px;
   text-align: center;
   border-style: none;
+  font-size: 20px;
 }
 
-.taka-amount [placeholder] {
+input::placeholder {
   color: #0e0e0e30;
-  font-size: 18px;
-  font-weight: 600;
 }
 
 .donate-btn {
